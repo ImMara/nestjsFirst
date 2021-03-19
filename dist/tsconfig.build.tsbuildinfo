@@ -1376,19 +1376,19 @@
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
-      "../src/products/products.controller.ts": {
-        "version": "104116f509266af27ab6ecb4e57f700a0dd24832deb0ea97cf600c991e55a6a3",
-        "signature": "b6d430289b14f952adc685755cfda4c6808f58694c64de02e119770e0d613e89",
-        "affectsGlobalScope": false
-      },
       "../src/products/products.model.ts": {
         "version": "018762ae7c823713b352494ddfa21461bc6485f4f6c355e0754c2702dd0bd8d4",
         "signature": "a785212756a2d6aba5c76f285370518ba3299a2c8172e314aaf14be889cd04d5",
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
-        "version": "211a42222505b575538e130e58638df0b9128b86932df66a1691c9c8a6b19949",
-        "signature": "f5dbfd409f5a381334a505de08d9d73acee4bc60c9394241c3e983201f23b90c",
+        "version": "41575ba16c5a9d91e36ea201487982a218b58148832197e7e5c3433010e8dfc4",
+        "signature": "c38851c41930217cdf7ebcfd99b94ffe49c12af980234f2c9d1b1ebe6f860e99",
+        "affectsGlobalScope": false
+      },
+      "../src/products/products.controller.ts": {
+        "version": "c8ae51fffdab52156e73bbe786e9f9a0446fe178ec1666f68f69fd22891e222a",
+        "signature": "5c5783daadfed3b620ad28c61c2ce5e07a27967866ce7b505a5a891dbf9d5643",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -3292,7 +3292,8 @@
         "../src/app.module.ts"
       ],
       "../src/products/products.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/products/products.service.ts"
       ],
       "../src/products/products.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4630,6 +4631,9 @@
       ],
       "../src/app.controller.ts": [
         "../src/app.service.ts"
+      ],
+      "../src/products/products.controller.ts": [
+        "../src/products/products.service.ts"
       ],
       "../src/products/products.service.ts": [
         "../src/products/products.model.ts"
