@@ -1382,8 +1382,8 @@
         "affectsGlobalScope": false
       },
       "../src/products/products.model.ts": {
-        "version": "f247114fd0c2968c353b0430630b45caf29112a0bdc1059d35ba9e8e20f079a0",
-        "signature": "1b17e2439ab5b9f2eb2cda391d1f2dafa5664a4ee613cff4c82f11f8aed889ef",
+        "version": "018762ae7c823713b352494ddfa21461bc6485f4f6c355e0754c2702dd0bd8d4",
+        "signature": "a785212756a2d6aba5c76f285370518ba3299a2c8172e314aaf14be889cd04d5",
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
