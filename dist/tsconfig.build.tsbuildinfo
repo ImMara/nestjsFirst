@@ -1376,6 +1376,21 @@
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
+      "../src/products/products.controller.ts": {
+        "version": "104116f509266af27ab6ecb4e57f700a0dd24832deb0ea97cf600c991e55a6a3",
+        "signature": "b6d430289b14f952adc685755cfda4c6808f58694c64de02e119770e0d613e89",
+        "affectsGlobalScope": false
+      },
+      "../src/products/products.model.ts": {
+        "version": "f247114fd0c2968c353b0430630b45caf29112a0bdc1059d35ba9e8e20f079a0",
+        "signature": "1b17e2439ab5b9f2eb2cda391d1f2dafa5664a4ee613cff4c82f11f8aed889ef",
+        "affectsGlobalScope": false
+      },
+      "../src/products/products.service.ts": {
+        "version": "5138e046bc26c89b7e5d6aa5b32e5b9af596a2bb876774a2ab4c8eb8847cd0c0",
+        "signature": "b8552c067896c3217fa631b86729829b288de09a39799802d6acc129127ff147",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
@@ -3275,6 +3290,12 @@
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts"
+      ],
+      "../src/products/products.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/products/products.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -4993,7 +5014,10 @@
       "../src/app.controller.ts",
       "../src/app.module.ts",
       "../src/app.service.ts",
-      "../src/main.ts"
+      "../src/main.ts",
+      "../src/products/products.controller.ts",
+      "../src/products/products.model.ts",
+      "../src/products/products.service.ts"
     ]
   },
   "version": "4.2.3"
