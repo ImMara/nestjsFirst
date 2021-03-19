@@ -1387,8 +1387,8 @@
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
-        "version": "5138e046bc26c89b7e5d6aa5b32e5b9af596a2bb876774a2ab4c8eb8847cd0c0",
-        "signature": "b8552c067896c3217fa631b86729829b288de09a39799802d6acc129127ff147",
+        "version": "211a42222505b575538e130e58638df0b9128b86932df66a1691c9c8a6b19949",
+        "signature": "f5dbfd409f5a381334a505de08d9d73acee4bc60c9394241c3e983201f23b90c",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -3295,7 +3295,8 @@
         "../node_modules/@nestjs/common/index.d.ts"
       ],
       "../src/products/products.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/products/products.model.ts"
       ]
     },
     "exportedModulesMap": {
@@ -4629,6 +4630,9 @@
       ],
       "../src/app.controller.ts": [
         "../src/app.service.ts"
+      ],
+      "../src/products/products.service.ts": [
+        "../src/products/products.model.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
