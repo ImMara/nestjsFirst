@@ -22,6 +22,7 @@ let AppController = class AppController {
 };
 __decorate([
     common_1.Get(),
+    common_1.Header('Content-Type', 'text/html'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Object)
