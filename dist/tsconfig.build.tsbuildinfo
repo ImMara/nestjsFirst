@@ -1186,19 +1186,19 @@
         "signature": "6674f5c427e2ad46e2dcd16dd04955f27649610ee2329c3fa0115bb786537cdf",
         "affectsGlobalScope": false
       },
-      "../src/products/products.model.ts": {
-        "version": "018762ae7c823713b352494ddfa21461bc6485f4f6c355e0754c2702dd0bd8d4",
-        "signature": "a785212756a2d6aba5c76f285370518ba3299a2c8172e314aaf14be889cd04d5",
+      "../src/products/product.model.ts": {
+        "version": "7b89b49c6321af61a843fb3be7522fb114ffe1fd4af022faeb8acabc617625d5",
+        "signature": "86d259745f073f761d134ad4d0cab87d2ec436c6f540849a43a66811be8c6543",
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
-        "version": "41575ba16c5a9d91e36ea201487982a218b58148832197e7e5c3433010e8dfc4",
-        "signature": "c38851c41930217cdf7ebcfd99b94ffe49c12af980234f2c9d1b1ebe6f860e99",
+        "version": "4bb037a5bdcffbc5dd498f9cf29fad0b6f1bb14a7228578207b6d99adce503a6",
+        "signature": "4747f717cc12d5c7337219ecbdc06fee866824b61d49acd87a05465ffd00dea3",
         "affectsGlobalScope": false
       },
       "../src/products/products.controller.ts": {
-        "version": "c8ae51fffdab52156e73bbe786e9f9a0446fe178ec1666f68f69fd22891e222a",
-        "signature": "5c5783daadfed3b620ad28c61c2ce5e07a27967866ce7b505a5a891dbf9d5643",
+        "version": "abea48538701647548bae78cc2687a8a93d80b41430e386ab7af7d8cbf348cf6",
+        "signature": "1fca31caef8ff87a0989f227c912b724f30745642b4d22c903ac15d5d1ef7b7f",
         "affectsGlobalScope": false
       },
       "../src/products/products.module.ts": {
@@ -3308,7 +3308,7 @@
       ],
       "../src/products/products.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/products/products.model.ts"
+        "../src/products/product.model.ts"
       ]
     },
     "exportedModulesMap": {
@@ -4644,10 +4644,11 @@
         "../src/app.service.ts"
       ],
       "../src/products/products.controller.ts": [
+        "../src/products/product.model.ts",
         "../src/products/products.service.ts"
       ],
       "../src/products/products.service.ts": [
-        "../src/products/products.model.ts"
+        "../src/products/product.model.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -5034,8 +5035,8 @@
       "../src/app.module.ts",
       "../src/app.service.ts",
       "../src/main.ts",
+      "../src/products/product.model.ts",
       "../src/products/products.controller.ts",
-      "../src/products/products.model.ts",
       "../src/products/products.module.ts",
       "../src/products/products.service.ts"
     ]
