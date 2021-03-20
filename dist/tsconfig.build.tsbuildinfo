@@ -1187,8 +1187,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": {
-        "version": "8777e8b9e2aaad9e400a18387113faf9593806889cf4ef4267ce5271fce8b8be",
-        "signature": "8777e8b9e2aaad9e400a18387113faf9593806889cf4ef4267ce5271fce8b8be",
+        "version": "d6f8f5677b0e4076ff30fb38cefe5739f3247f4a311081a83aac4a7996b2224b",
+        "signature": "d6f8f5677b0e4076ff30fb38cefe5739f3247f4a311081a83aac4a7996b2224b",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts": {
@@ -1199,6 +1199,16 @@
       "../node_modules/@nestjs/mongoose/dist/common/index.d.ts": {
         "version": "23dbd21c1fe8ee7c2e1b260de8610d1ce67a785cd40d349520306c8d876385c4",
         "signature": "23dbd21c1fe8ee7c2e1b260de8610d1ce67a785cd40d349520306c8d876385c4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts": {
+        "version": "d2744f1996bebb498314d3c70f23fe84a5b4d30734ea3c2df862c0a9633611c2",
+        "signature": "d2744f1996bebb498314d3c70f23fe84a5b4d30734ea3c2df862c0a9633611c2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts": {
+        "version": "5e3848c0da812f18dc386e371c0c336331798013c2879a7529a0137fa757421c",
+        "signature": "5e3848c0da812f18dc386e371c0c336331798013c2879a7529a0137fa757421c",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/globals.d.ts": {
@@ -1446,59 +1456,9 @@
         "signature": "edbe1f5c85885d829bdfd5e87bded85181fede00c751af240276ea5a628b71e3",
         "affectsGlobalScope": false
       },
-      "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts": {
-        "version": "0111f89e770e819588d0b064bdaabf02ee3eaf8d2664ea32cf95beca95d1e604",
-        "signature": "0111f89e770e819588d0b064bdaabf02ee3eaf8d2664ea32cf95beca95d1e604",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts": {
-        "version": "0b6d47ef5eb8df1f39f04b670d4e35c0e81d3b429b1950f881e343d98e614e54",
-        "signature": "0b6d47ef5eb8df1f39f04b670d4e35c0e81d3b429b1950f881e343d98e614e54",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts": {
-        "version": "4bdb4a78b01987583507ae0d44b33f164b3bdef16caca951e40a86d4a595d31d",
-        "signature": "4bdb4a78b01987583507ae0d44b33f164b3bdef16caca951e40a86d4a595d31d",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/errors/cannot-determine-type.error.d.ts": {
-        "version": "efdd470f201058f6567c9e131e38d653b26a7da5f441c9c6090f294135ec3650",
-        "signature": "efdd470f201058f6567c9e131e38d653b26a7da5f441c9c6090f294135ec3650",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/errors/index.d.ts": {
-        "version": "4e1529ce3e1894332dc96d20c9e9c88e2ea2fd5d39cc834001fd67b707352331",
-        "signature": "4e1529ce3e1894332dc96d20c9e9c88e2ea2fd5d39cc834001fd67b707352331",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts": {
-        "version": "0dedbf967cd103b2137aa98da6f6d5a3000a09f1352f0fd713628614d4f65d9e",
-        "signature": "0dedbf967cd103b2137aa98da6f6d5a3000a09f1352f0fd713628614d4f65d9e",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts": {
-        "version": "0bf2e233d9ccc80c1393433918871d6e8e5f86dbefd17090a772f8ea66457f59",
-        "signature": "0bf2e233d9ccc80c1393433918871d6e8e5f86dbefd17090a772f8ea66457f59",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts": {
-        "version": "fc7e6b96801268ffb81f13f35953ec5847a60170341beb40ccf6badf0ea325b6",
-        "signature": "fc7e6b96801268ffb81f13f35953ec5847a60170341beb40ccf6badf0ea325b6",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts": {
-        "version": "b2ab44e0037a31a7c03076eb643913eebeaa10305e3a9f9ec136b634449d2f6c",
-        "signature": "b2ab44e0037a31a7c03076eb643913eebeaa10305e3a9f9ec136b634449d2f6c",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts": {
-        "version": "8019aa8a0aa73abe67c6618300f073fd3079c5dc09364165c028957f755ef6db",
-        "signature": "8019aa8a0aa73abe67c6618300f073fd3079c5dc09364165c028957f755ef6db",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts": {
-        "version": "f3ff9ca111489034699157502ef62a19eacc986171439a0effe2072311f4c0b4",
-        "signature": "f3ff9ca111489034699157502ef62a19eacc986171439a0effe2072311f4c0b4",
+        "version": "3121c8302d6724dd7a7ba38823d3591ef0ece93180a914c3d8f9f4bb2c998b23",
+        "signature": "3121c8302d6724dd7a7ba38823d3591ef0ece93180a914c3d8f9f4bb2c998b23",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts": {
@@ -1511,19 +1471,9 @@
         "signature": "e4f5fb7725eda896f02384930da65d171bba03b6f7e2a7f6ff4989aed531c826",
         "affectsGlobalScope": false
       },
-      "../node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts": {
-        "version": "9a95baf6f94c31e1d9ce4d7c9664ae9fc54842004ef0a6a3b5205c5d121a8ea4",
-        "signature": "9a95baf6f94c31e1d9ce4d7c9664ae9fc54842004ef0a6a3b5205c5d121a8ea4",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts": {
-        "version": "2b9d837d90728c6bddee2cce1352bea7f6e9b8d74ad6b491779ec0f0451935e8",
-        "signature": "2b9d837d90728c6bddee2cce1352bea7f6e9b8d74ad6b491779ec0f0451935e8",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@nestjs/mongoose/dist/index.d.ts": {
-        "version": "c7b0ec461b2d94e8ead4ec75c04850cedfcd5c2ef9a32cbe9445e14cb6c558df",
-        "signature": "c7b0ec461b2d94e8ead4ec75c04850cedfcd5c2ef9a32cbe9445e14cb6c558df",
+        "version": "1566c3bf94fd979425350fd0d2dd2e814c9399c7217f58186467c548f7711e58",
+        "signature": "1566c3bf94fd979425350fd0d2dd2e814c9399c7217f58186467c548f7711e58",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/mongoose/index.d.ts": {
@@ -1537,13 +1487,13 @@
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
-        "version": "bfc26ab6c91fa361515b10c927bf33cd0e7364c6dd66bfc5f5e0ca3026462033",
-        "signature": "c8d7316401b91e9857088018e31374651a55ae96007e90d2a286a2390f07a43d",
+        "version": "2ad77ffe070b187717d674b3587765db4129ed8b9cebe0e50e3453d0a4953ed6",
+        "signature": "1ad8705d75fb96c9ad62a7127a68bdac545348dd9179a6285f9fbfd49897d8e3",
         "affectsGlobalScope": false
       },
       "../src/products/products.controller.ts": {
-        "version": "9e363ce9f4cf7b2bd082b4ac14c0013925c96b4632a9919bf22e1cb8ab7c1cda",
-        "signature": "fff4a8294ee06477e8e4966ff06a7374a095c4dc9ec495e80fdcfd70a2f77171",
+        "version": "703a5d6bb24dbb1f0c710cba62474291237b3cb31b052e9d73b381a73bc940b5",
+        "signature": "c444bb5c94da8939c1d4ca726d67358f02ed0a5c6e75f6cefaed6311787d76f2",
         "affectsGlobalScope": false
       },
       "../src/products/products.module.ts": {
@@ -3152,53 +3102,10 @@
         "../node_modules/mongoose/index.d.ts",
         "../node_modules/rxjs/index.d.ts"
       ],
-      "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/errors/cannot-determine-type.error.d.ts": [
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/errors/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/errors/cannot-determine-type.error.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
       "../node_modules/@nestjs/mongoose/dist/index.d.ts": [
         "../node_modules/@nestjs/mongoose/dist/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/errors/index.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts",
         "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/mongoose/index.d.ts"
       ],
@@ -3229,15 +3136,6 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts",
-        "../node_modules/@types/mongoose/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts": [
         "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/mongoose/index.d.ts"
       ],
@@ -5206,46 +5104,25 @@
         "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
         "../node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts"
       ],
+      "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/mongoose/index.d.ts"
+      ],
       "../node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts": [
         "../node_modules/rxjs/index.d.ts"
       ],
-      "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts": [
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts": [
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/errors/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/errors/cannot-determine-type.error.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/mongoose/index.d.ts"
-      ],
       "../node_modules/@nestjs/mongoose/dist/index.d.ts": [
         "../node_modules/@nestjs/mongoose/dist/common/index.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/errors/index.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts"
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/mongoose/index.d.ts"
       ],
       "../node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts": [
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts"
+        "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/mongoose/index.d.ts"
       ],
       "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts": [
         "../node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts",
@@ -5253,20 +5130,19 @@
         "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts"
       ],
       "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/mongoose/index.d.ts"
       ],
       "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/mongoose/index.d.ts"
       ],
       "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
         "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts": [
-        "../node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts"
       ],
       "../node_modules/@nestjs/mongoose/index.d.ts": [
         "../node_modules/@nestjs/mongoose/dist/index.d.ts"
@@ -6194,22 +6070,12 @@
       "../node_modules/@nestjs/mongoose/dist/common/index.d.ts",
       "../node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
       "../node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/decorators/index.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/decorators/prop.decorator.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/decorators/schema.decorator.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/errors/cannot-determine-type.error.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/errors/index.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/factories/definitions.factory.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/factories/index.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/factories/schema.factory.d.ts",
       "../node_modules/@nestjs/mongoose/dist/index.d.ts",
       "../node_modules/@nestjs/mongoose/dist/interfaces/async-model-factory.interface.d.ts",
       "../node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
       "../node_modules/@nestjs/mongoose/dist/interfaces/model-definition.interface.d.ts",
       "../node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
       "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/utils/index.d.ts",
-      "../node_modules/@nestjs/mongoose/dist/utils/raw.util.d.ts",
       "../node_modules/@nestjs/mongoose/index.d.ts",
       "../node_modules/@types/anymatch/index.d.ts",
       "../node_modules/@types/babel__core/index.d.ts",
@@ -7283,43 +7149,7 @@
       "../src/products/product.model.ts",
       "../src/products/products.controller.ts",
       "../src/products/products.module.ts",
-      [
-        "../src/products/products.service.ts",
-        [
-          {
-            "file": "../src/products/products.service.ts",
-            "start": 999,
-            "length": 2,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'id' does not exist on type 'Model<Product, {}>'."
-          },
-          {
-            "file": "../src/products/products.service.ts",
-            "start": 1024,
-            "length": 5,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'title' does not exist on type 'Model<Product, {}>'."
-          },
-          {
-            "file": "../src/products/products.service.ts",
-            "start": 1058,
-            "length": 11,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'description' does not exist on type 'Model<Product, {}>'."
-          },
-          {
-            "file": "../src/products/products.service.ts",
-            "start": 1092,
-            "length": 5,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'price' does not exist on type 'Model<Product, {}>'."
-          }
-        ]
-      ]
+      "../src/products/products.service.ts"
     ]
   },
   "version": "4.2.3"
