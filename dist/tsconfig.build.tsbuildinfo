@@ -1547,7 +1547,7 @@
         "affectsGlobalScope": false
       },
       "../src/products/products.module.ts": {
-        "version": "3ee79ca8be840a5cbe71ad36d21e7b663313fe8c49193d30f3e949a60ae00a28",
+        "version": "cb1591c2e00a8f8005c52e2c61cbc8a22035b9da50f2807583c604a338d9f25a",
         "signature": "869dc75f2a364405dd7250ffa7f55b4facfc75218498a27b14ca830cdfce65f5",
         "affectsGlobalScope": false
       },
@@ -3507,6 +3507,8 @@
       ],
       "../src/products/products.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../src/products/product.model.ts",
         "../src/products/products.controller.ts",
         "../src/products/products.service.ts"
       ],
