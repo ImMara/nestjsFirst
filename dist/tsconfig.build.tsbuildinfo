@@ -1532,13 +1532,13 @@
         "affectsGlobalScope": false
       },
       "../src/products/product.model.ts": {
-        "version": "6736b2d10224af6cb79230c8f30017465fe0dd0d6d3e8c4d3cfb29d3975bdaae",
-        "signature": "4eb9d2198ae953654562f191b668d64fc3b14571de506260c213e100d85e411c",
+        "version": "3ae1eb1861b3015a80155bb96ca14a8a7b7d8e721811cd4dc3e35fd040e5d445",
+        "signature": "1143fe9d5caa9968e013c5a39f859d8c3460564c3d4d9226eb3e4ac9fa5e70c0",
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
-        "version": "7c777e8e5de5772336bf97aeee87937b0aeefb836469d4692c68c19dfeaa16b4",
-        "signature": "942ca1bc91b74117355636900f102105b795a6c6800fe1afdb3399cc0e61cd3c",
+        "version": "f036e231ed0c6619be2b5eabc8ed3180c1e3fe184e83c8d7c3173bad89fd32cc",
+        "signature": "d1c365f8942f1a7c752e7fecf5444763335069dac0e90bade162c67b2e418aa4",
         "affectsGlobalScope": false
       },
       "../src/products/products.controller.ts": {
@@ -3514,6 +3514,8 @@
       ],
       "../src/products/products.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/mongoose/index.d.ts",
+        "../node_modules/mongoose/index.d.ts",
         "../src/products/product.model.ts"
       ]
     },
@@ -4942,6 +4944,7 @@
         "../src/products/products.service.ts"
       ],
       "../src/products/products.service.ts": [
+        "../node_modules/mongoose/index.d.ts",
         "../src/products/product.model.ts"
       ]
     },
@@ -5355,7 +5358,38 @@
       "../src/products/product.model.ts",
       "../src/products/products.controller.ts",
       "../src/products/products.module.ts",
-      "../src/products/products.service.ts"
+      [
+        "../src/products/products.service.ts",
+        [
+          {
+            "file": "../src/products/products.service.ts",
+            "start": 352,
+            "length": 7,
+            "code": 2344,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type 'Product' does not satisfy the constraint 'Document<any, {}>'.",
+              "category": 1,
+              "code": 2344,
+              "next": [
+                {
+                  "messageText": "Type 'Product' is missing the following properties from type 'Document<any, {}>': $getAllSubdocs, $ignore, $isDefault, $isDeleted, and 47 more.",
+                  "category": 1,
+                  "code": 2740
+                }
+              ]
+            }
+          },
+          {
+            "file": "../src/products/products.service.ts",
+            "start": 504,
+            "length": 7,
+            "messageText": "'Product' only refers to a type, but is being used as a value here.",
+            "category": 1,
+            "code": 2693
+          }
+        ]
+      ]
     ]
   },
   "version": "4.2.3"
