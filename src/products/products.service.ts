@@ -21,15 +21,21 @@ export class ProductsService {
     return result.id as string;
   }
 
-  // getProducts() {
-  //   return this.products.slice();
-  // }
-  //
+  async getProducts() {
+    const products = await this.productModel.find().exec();
+    return products.map((prod) => ({
+      id: prod.id,
+      title: prod.title,
+      description: prod.description,
+      price: prod.price,
+    }));
+  }
+
   // getSingleProduct(productId: string) {
   //   const product = this.findProduct(productId)[0];
   //   return { ...product };
   // }
-  //
+
   // updateProduct(productId: string, title: string, desc: string, price: number) {
   //   const await [product, index] = this.findProduct(productId);
   //   const updatedProduct = { ...product };
@@ -55,6 +61,6 @@ export class ProductsService {
     if (!product) {
       throw new NotFoundException('Could not find product');
     }
-    return product;
+    return [product, productIndex];
   }
 }

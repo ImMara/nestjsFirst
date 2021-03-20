@@ -1537,13 +1537,13 @@
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
-        "version": "fd7c2240671136fad52ff7cae52a630b61e9fb3d8e1ecc608304273f946faa37",
-        "signature": "cd4ae2d6c8ee5d6fc0a960186872036a267a57f549732beeb8bcbb9983fbcb44",
+        "version": "11b0e1cbbaa21a7b4801d6df2024033a3916ff4ff4d0f968e18b2f2b9d71ac08",
+        "signature": "6f42cc173f1303c31eab1f9145eca334a7467fbb02e29e08c5bd310ae9cf41ef",
         "affectsGlobalScope": false
       },
       "../src/products/products.controller.ts": {
-        "version": "ff496ce9b8d1ae1b69e65f13fa8d07c5d28ab2fff732b029804877b8ffae674c",
-        "signature": "b9b3edc2c25101a0ae531ac8772a7e4eaed6b162f1759dd56239714925ec346b",
+        "version": "3c881fb9c921c192ee7ab07558828e2e10fe9931402d54eb8322469bc1c29689",
+        "signature": "5175312bdfdfd975d070a5d204bd2d823cb83b4d7d5dcc7b4a5fb68e8aaba97e",
         "affectsGlobalScope": false
       },
       "../src/products/products.module.ts": {
@@ -7286,15 +7286,7 @@
         [
           {
             "file": "../src/products/products.controller.ts",
-            "start": 657,
-            "length": 11,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'getProducts' does not exist on type 'ProductsService'."
-          },
-          {
-            "file": "../src/products/products.controller.ts",
-            "start": 767,
+            "start": 810,
             "length": 16,
             "code": 2339,
             "category": 1,
@@ -7302,7 +7294,7 @@
           },
           {
             "file": "../src/products/products.controller.ts",
-            "start": 1014,
+            "start": 1057,
             "length": 13,
             "code": 2339,
             "category": 1,
@@ -7310,7 +7302,7 @@
           },
           {
             "file": "../src/products/products.controller.ts",
-            "start": 1180,
+            "start": 1223,
             "length": 13,
             "code": 2339,
             "category": 1,
@@ -7319,7 +7311,19 @@
         ]
       ],
       "../src/products/products.module.ts",
-      "../src/products/products.service.ts"
+      [
+        "../src/products/products.service.ts",
+        [
+          {
+            "file": "../src/products/products.service.ts",
+            "start": 1874,
+            "length": 31,
+            "code": 2740,
+            "category": 1,
+            "messageText": "Type '(number | Product)[]' is missing the following properties from type 'Product': id, title, description, price, and 51 more."
+          }
+        ]
+      ]
     ]
   },
   "version": "4.2.3"
