@@ -31,10 +31,15 @@ export class ProductsService {
     }));
   }
 
-  // getSingleProduct(productId: string) {
-  //   const product = this.findProduct(productId)[0];
-  //   return { ...product };
-  // }
+  async getSingleProduct(productId: string) {
+    const product = await this.findProduct(productId);
+    return {
+      id: product.id,
+      title: product.title,
+      description: product.description,
+      price: product.price,
+    };
+  }
 
   // updateProduct(productId: string, title: string, desc: string, price: number) {
   //   const await [product, index] = this.findProduct(productId);
@@ -55,12 +60,16 @@ export class ProductsService {
   //   this.products.splice(index, 1);
   // }
 
-  private async findProduct(id: string): Promise<Product> {
-    const productIndex = this.products.findIndex((prod) => prod.id === id);
-    const product = this.products[productIndex];
+  private async findProduct(id: string): Promise<Model<Product>> {
+    let product;
+    try {
+      product = await this.productModel.findById(id).exec();
+    } catch (error) {
+      throw new NotFoundException('Could not find product');
+    }
     if (!product) {
       throw new NotFoundException('Could not find product');
     }
-    return [product, productIndex];
+    return product;
   }
 }

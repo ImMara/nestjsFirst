@@ -1537,13 +1537,13 @@
         "affectsGlobalScope": false
       },
       "../src/products/products.service.ts": {
-        "version": "11b0e1cbbaa21a7b4801d6df2024033a3916ff4ff4d0f968e18b2f2b9d71ac08",
-        "signature": "6f42cc173f1303c31eab1f9145eca334a7467fbb02e29e08c5bd310ae9cf41ef",
+        "version": "bfc26ab6c91fa361515b10c927bf33cd0e7364c6dd66bfc5f5e0ca3026462033",
+        "signature": "c8d7316401b91e9857088018e31374651a55ae96007e90d2a286a2390f07a43d",
         "affectsGlobalScope": false
       },
       "../src/products/products.controller.ts": {
-        "version": "3c881fb9c921c192ee7ab07558828e2e10fe9931402d54eb8322469bc1c29689",
-        "signature": "5175312bdfdfd975d070a5d204bd2d823cb83b4d7d5dcc7b4a5fb68e8aaba97e",
+        "version": "9e363ce9f4cf7b2bd082b4ac14c0013925c96b4632a9919bf22e1cb8ab7c1cda",
+        "signature": "fff4a8294ee06477e8e4966ff06a7374a095c4dc9ec495e80fdcfd70a2f77171",
         "affectsGlobalScope": false
       },
       "../src/products/products.module.ts": {
@@ -7281,46 +7281,42 @@
       "../src/app.service.ts",
       "../src/main.ts",
       "../src/products/product.model.ts",
-      [
-        "../src/products/products.controller.ts",
-        [
-          {
-            "file": "../src/products/products.controller.ts",
-            "start": 810,
-            "length": 16,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'getSingleProduct' does not exist on type 'ProductsService'."
-          },
-          {
-            "file": "../src/products/products.controller.ts",
-            "start": 1057,
-            "length": 13,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'updateProduct' does not exist on type 'ProductsService'."
-          },
-          {
-            "file": "../src/products/products.controller.ts",
-            "start": 1223,
-            "length": 13,
-            "code": 2339,
-            "category": 1,
-            "messageText": "Property 'deleteProduct' does not exist on type 'ProductsService'."
-          }
-        ]
-      ],
+      "../src/products/products.controller.ts",
       "../src/products/products.module.ts",
       [
         "../src/products/products.service.ts",
         [
           {
             "file": "../src/products/products.service.ts",
-            "start": 1874,
-            "length": 31,
-            "code": 2740,
+            "start": 999,
+            "length": 2,
+            "code": 2339,
             "category": 1,
-            "messageText": "Type '(number | Product)[]' is missing the following properties from type 'Product': id, title, description, price, and 51 more."
+            "messageText": "Property 'id' does not exist on type 'Model<Product, {}>'."
+          },
+          {
+            "file": "../src/products/products.service.ts",
+            "start": 1024,
+            "length": 5,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'title' does not exist on type 'Model<Product, {}>'."
+          },
+          {
+            "file": "../src/products/products.service.ts",
+            "start": 1058,
+            "length": 11,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'description' does not exist on type 'Model<Product, {}>'."
+          },
+          {
+            "file": "../src/products/products.service.ts",
+            "start": 1092,
+            "length": 5,
+            "code": 2339,
+            "category": 1,
+            "messageText": "Property 'price' does not exist on type 'Model<Product, {}>'."
           }
         ]
       ]
